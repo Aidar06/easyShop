@@ -1,0 +1,22 @@
+#header{
+  padding: 20px 0;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+      font-size: 30px;
+      cursor: pointer;
+      font-family: 'Protest Guerrilla', sans-serif;
+    }
+    div{
+      cursor: pointer;
+      font-size: 30px;
+    }
+  }
+}

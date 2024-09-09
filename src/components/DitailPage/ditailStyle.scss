@@ -1,0 +1,48 @@
+#ditail{
+  width: 100%;
+  padding-top: 120px;
+  .ditail{
+    display: flex;
+    justify-content: space-between;
+    &--img{
+      width: 48%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      img{
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+      }
+    }
+    &--info{
+      width: 48%;
+      h1{
+        font-family: sans-serif;
+        font-size: 30px;
+      }
+      h2{
+        font-family: sans-serif;
+        font-size: 30px;
+        color: green;
+        margin-top: 5px;
+      }
+      h3{
+        font-size: 25px;
+        font-family: sans-serif;
+        margin-top: 20px;
+      }
+      h4{
+        font-size: 20px;
+        font-family: sans-serif;
+      }
+      P{
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+      }
+    }
+  }
+
+}

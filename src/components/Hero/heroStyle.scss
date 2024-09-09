@@ -1,0 +1,42 @@
+#hero{
+  padding: 100px 0;
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--search{
+      width: 30%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      input{
+        width: 100%;
+        padding:10px 0;
+        border-radius: 20px;
+        border: 2px solid black;
+        text-indent: 10px;
+        font-size: 18px;
+      }
+      div{
+        position: absolute;
+        font-size: 25px;
+        right: 20px;
+        top: 10px;
+      }
+    }
+    &--products{
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      h4{
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.71);
+      }
+    }
+  }
+}

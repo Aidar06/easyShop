@@ -1,0 +1,17 @@
+@import "./src/components/Heeder/headerStyle";
+@import "./src/components/Hero/heroStyle";
+@import "./src/components/Acc/accStyle";
+@import "./src/components/DitailPage/ditailStyle";
+@import "./src/Product/productStyle";
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
