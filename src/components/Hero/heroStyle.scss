@@ -40,3 +40,24 @@
     }
   }
 }
+
+
+@media (max-width: 910px) {
+  #hero{
+    .hero{
+      &--search{
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #hero{
+    .hero{
+      &--search{
+        width: 70%;
+      }
+    }
+  }
+}
